@@ -1,0 +1,10 @@
+{
+    "base_url": "https://tendersodisha.gov.in",
+    "target_url": "https://tendersodisha.gov.in/nicgep/app?page=WebTenderStatusLists&service=page",
+    "download_folder": "tender_downloads",
+    "excel_file_prefix": "odisha_tenders",
+    "timeout_seconds": 15,
+    "delay_between_requests": 2,
+    "max_retries": 3,
+    "headless_mode": false
+}

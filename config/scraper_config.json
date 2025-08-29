@@ -1,0 +1,25 @@
+{
+    "base_url": "https://tendersodisha.gov.in",
+    "target_url": "https://tendersodisha.gov.in/nicgep/app?page=WebTenderStatusLists&service=page",
+    "download_folder": "C:/Users/Administrator/Desktop/pdf",
+    "excel_file_prefix": "odisha_tenders",
+    "timeout_seconds": 15,
+    "delay_between_requests": 2.0,
+    "max_retries": 3,
+    "headless_mode": false,
+    "window_size": {
+        "width": 1920,
+        "height": 1080
+    },
+    "chrome_options": [
+        "--no-sandbox",
+        "--disable-dev-shm-usage",
+        "--disable-gpu"
+    ],
+    "export_settings": {
+        "include_timestamps": true,
+        "auto_open_excel": false,
+        "create_summary_report": true
+    },
+    "max_records": 30
+}
